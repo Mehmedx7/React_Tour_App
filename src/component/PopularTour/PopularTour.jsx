@@ -1,6 +1,7 @@
 import React from "react";
 import img1 from "../../assets/img/home-decor-1.jpg";
 import { Badge } from "react-bootstrap";
+import { Link } from "react-router-dom";
 
 const cardData = [
   {
@@ -85,9 +86,8 @@ const PopularTour = () => {
                   Some quick example text to build on the card title and make up
                   the bulk of the card's content.
                 </p>
-                <a href="#" className="btn btn-primary">
-                  Book Now
-                </a>
+              
+                <Link className="btn btn-primary" to="#"> Book Now</Link>
               </div>
             </div>
             </div>
