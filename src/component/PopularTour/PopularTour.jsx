@@ -75,12 +75,12 @@ const PopularTour = () => {
 
                   <small class="bi bi-star-fill text-primary"></small>
                 </div>
-                <div>
+                {/* <div>
                   <div>
                     <p></p>
                     <h1></h1>
                   </div>
-                </div>
+                </div> */}
                 <p className="card-text">
                   Some quick example text to build on the card title and make up
                   the bulk of the card's content.

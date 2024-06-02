@@ -23,7 +23,6 @@ const menuItem = [
 
 const Header = () => {
   const [isScrolled, setIsScrolled] = useState(false);
-  const [isOpen, setIsOpen] = useState(false);
   
 
   useEffect(() => {
