@@ -50,3 +50,9 @@ border: 2px solid #240750;
 .Popular-tour .badge{
     background-color: #b799e08b !important;
 }
+
+.custome-img
+{
+    height: 230px; /* Fixed height for the image */
+  object-fit: cover; 
+}

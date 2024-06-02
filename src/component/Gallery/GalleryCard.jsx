@@ -54,7 +54,7 @@ const GalleryCard = () => {
   return (
     <div>
          <div className='container gallery'>
-         <div className="title text-center mt-3">
+            <div className="title text-center mt-3">
          <h1>Gallery</h1>
           <p>
             Lorem ipsum dolor sit amet consectetur adipiscing elit. Mauris
