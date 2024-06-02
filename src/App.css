@@ -1,0 +1,52 @@
+
+.navbar-brand img{
+    position: absolute;
+    top: 7px;
+    margin-left: 8%;
+}
+.navbar
+{
+    background-color: #ffffff;
+}
+.carousel-img
+{
+    height:80vh;
+}
+/* .wrapper .overlay
+{
+    background-color: gray;
+} */
+
+.carousel-caption .car-btn
+{
+color: black;
+padding: 10px 30px 10px 30px;
+font-weight: 650 !important;
+border:  2px solid black !important;
+font-size: large;
+}
+
+.carousel-caption h1{
+    color: #240750;
+    font-size:52px;
+    font-weight: bold;
+}
+.carousel-caption .car-btn:hover{
+color: black;
+}
+.destination img
+{
+    width:80%;    
+    height: 37vh;
+    border-radius: 48%;
+}
+
+
+.destination img:hover
+{
+border: 2px solid #240750;
+}
+
+.Popular-tour .badge{
+    background-color: #b799e08b !important;
+}
