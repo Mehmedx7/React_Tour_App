@@ -1,8 +1,15 @@
 import React from 'react'
+import ImageCard from '../component/DetailImage/image'
+import TabView from './TabView/tabView'
 
 const Detailed = () => {
   return (
     <div>Detailed
+
+ <ImageCard/>
+<TabView/>
+
+
 {/*     
     card click 
     image 
