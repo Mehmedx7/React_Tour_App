@@ -1,5 +1,5 @@
 import React from "react";
-import { Card, Col, Nav, Tab } from "react-bootstrap";
+import { Card, Nav, Tab } from "react-bootstrap";
 import Faq from "../faq/faq";
 import "./tabView.css";
 
