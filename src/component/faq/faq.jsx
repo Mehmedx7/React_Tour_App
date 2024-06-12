@@ -1,21 +1,23 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import "./faq.css"
 
 const Faq = () => {
   return (
-    <div>
+    <div className='faq'>
           
           <div className="accordion-list mt-3">
+          <div className="faq-list">
   <ul>
     <li>
       <Link
         data-bs-toggle="collapse"
-        className="collapsed"
+        className="collapsed a text-decoration-none"
         data-bs-target="#accordion-list-1"
       >
         <span>01</span> Non consectetur a erat nam at lectus urna duis?{" "}
-        <i className="bx bx-chevron-down icon-show" />
-        <i className="bx bx-chevron-up icon-close" />
+        <i class="bi bi-plus icon-show"></i>
+        <i class="bi bi-dash icon-close"></i>
       </Link>
       <div
         id="accordion-list-1"
@@ -32,12 +34,12 @@ const Faq = () => {
     <li>
       <Link
         data-bs-toggle="collapse"
-        data-bs-target="#accordion-list-2"
-        className="collapsed"
+        data-bs-target="#accordion-list-2 "
+        className="collapsed a text-decoration-none"
       >
         <span>02</span> Feugiat scelerisque varius morbi enim nunc?{" "}
-        <i className="bx bx-chevron-down icon-show" />
-        <i className="bx bx-chevron-up icon-close" />
+        <i class="bi bi-plus icon-show"></i>
+        <i class="bi bi-dash icon-close"></i>
       </Link>
       <div
         id="accordion-list-2"
@@ -57,11 +59,11 @@ const Faq = () => {
       <Link
         data-bs-toggle="collapse"
         data-bs-target="#accordion-list-3"
-        className="collapsed"
+        className="collapsed a"
       >
         <span>03</span> Dolor sit amet consectetur adipiscing elit?{" "}
-        <i className="bx bx-chevron-down icon-show" />
-        <i className="bx bx-chevron-up icon-close" />
+        <i class="bi bi-plus icon-show"></i>
+        <i class="bi bi-dash icon-close"></i>
       </Link>
       <div
         id="accordion-list-3"
@@ -78,6 +80,7 @@ const Faq = () => {
       </div>
     </li>
   </ul>
+  </div>
 </div>
 
     </div>
