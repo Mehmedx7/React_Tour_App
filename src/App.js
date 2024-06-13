@@ -1,5 +1,4 @@
 import './App.css';
-
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Layout from './pages/Layout';
 import Detailed from './pages/Detailed';
@@ -8,6 +7,7 @@ import Home from './pages/Home';
 import { useEffect } from 'react';
 import "aos/dist/aos.css";
 import AOS from 'aos';
+
 
 
 function App() {
